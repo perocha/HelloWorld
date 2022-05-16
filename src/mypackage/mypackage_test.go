@@ -1,13 +1,13 @@
-package helloworld_test
+package mypackage_test
 
 import (
 	"testing"
 
-	"github.com/perocha/helloworld"
+	"github.com/perocha/mypackage"
 )
 
 func TestHelloWorld(t *testing.T) {
-	if helloworld.HelloWorld() != "Hello world!!" {
+	if mypackage.HelloWorld() != "Hello world!!" {
 		t.Fatal("Error message")
 	}
 }

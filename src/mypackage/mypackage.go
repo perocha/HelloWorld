@@ -1,4 +1,4 @@
-package helloworld
+package mypackage
 
 import (
 	"errors"

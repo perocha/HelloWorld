@@ -6,7 +6,7 @@ import (
 
 	"github.com/perocha/calculator"
 
-	"github.com/perocha/helloworld"
+	"github.com/perocha/mypackage"
 
 	"log"
 
@@ -45,11 +45,11 @@ func main() {
 	log.SetFlags(0)
 
 	// Basic hello world message
-	fmt.Println(helloworld.HelloWorld())
+	fmt.Println(mypackage.HelloWorld())
 	fmt.Println(quote.Go())
 
 	// Request a greeting message
-	message, err := helloworld.Hello("Pedro")
+	message, err := mypackage.Hello("Pedro")
 	// If error is received, print the error in the console and exit the program
 	if err != nil {
 		log.Fatal(err)
