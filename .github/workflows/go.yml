@@ -19,8 +19,9 @@ jobs:
         go-version: 1.18
 
     - name: Build
-      run: cd src/helloworld
-      run: go build -v ./...
+      run: |
+        cd src/helloworld
+        go build -v ./...
 
     - name: Test
       run: go test -v ./...
