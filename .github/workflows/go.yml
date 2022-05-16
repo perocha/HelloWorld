@@ -25,5 +25,5 @@ jobs:
 
     - name: Test
       run: |
-        cd src/helloworld
+        cd src/mypackage
         go test -v ./...
