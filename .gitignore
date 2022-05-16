@@ -1,2 +1,4 @@
 # My secret files
 # sonar-project.properties
+
+*.exe
